@@ -1,0 +1,103 @@
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color: #424242;
+    font-weight: 400;
+}
+
+#navbar{
+    background-color: white;
+    padding-top: 8px;
+    line-height: 40px;
+    box-shadow: 2px 1px 2px #eee;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+#navbar a{
+    text-decoration: none;
+    color: #424242;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+}
+#main{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+#logo{
+    width: auto;
+    height: 17px;
+    display: inline;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    padding-left: 80px;
+}
+#three_bars{
+    display: inline;
+    height: 28px;
+    width: auto;
+    padding-top: 4px;
+}
+
+#landing{
+    height: auto;
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+
+}
+
+#button{
+    background-color: #387ed1;
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding: 10px 30px 10px 30px;
+    font-size: 19.2px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 3px;
+}
+#button:hover{
+    background-color: #222;
+}
+
+#heading1{
+    font-size: 44px;
+    font-weight: 500;
+    margin: 0 0 0 0;
+}
+#subhead{
+    font-size: 20px;
+    font-weight: 400;
+}
+#subhead, #heading1{
+    text-align: center;
+}
+
+#button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav_opt{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    padding-right: 80px;
+    width: 45vw;
+}
+#nav_opt a p{
+    padding: 10px 20px 20px 20px;
+    color: #424242;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+#nav_opt a p:hover{
+    color: #387ed1;
+    font-size: 14px;
+}

@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@200&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Zerodha</title>
-    <style>
-        #logo{
-            width: 200px;
-        }
-        #landing{
-            width: 70vw;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="navbar">
-        <a href="#"><img src="logo.svg" alt="" id="logo"></a>
-        <a href="#">Signup</a>
-        <a href="#">About</a>
-        <a href="#">Products</a>
-        <a href="#">Pricing</a>
-        <a href="#">Support</a>
+        <a href="#"><img src="logo.svg" id="logo"></a>
+        <div id="nav_opt">
+            <a href="#"><p>Signup</p></a>
+            <a href="#"><p>About</p></a>
+            <a href="#"><p>Products</p></a>
+            <a href="#"><p>Pricing</p></a>
+            <a href="#"><p>Support</p></a>
+            <a href="#"><img src="three_bars.svg" id="three_bars"></a>
+        </div>
+        
     </div>
-
-    <img src="landing.png" alt="" id="landing">
-    <h1>Invest in everything</h1>
-    <p>Online platform to invest in stocks, derivatives, mutual funds, and more</p>
-    <button>Sign up now</button>
+    <div id="main">
+        <img src="landing.png" alt="" id="landing">
+        <h1 id="heading1">Invest in everything</h1>
+        <p id="subhead">Online platform to invest in stocks, derivatives, mutual funds, and more</p>
+        <button id="button">Sign up for free</button>
+    </div>
+    
 </body>
 </html>
